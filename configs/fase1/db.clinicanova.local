@@ -1,0 +1,14 @@
+$TTL    300
+@   IN  SOA srv.clinicanova.local. admin.clinicanova.local. (
+            2024031201 ; Serial
+            3600       ; Refresh 
+            1800       ; Retry
+            604800     ; Expire
+            300 )      ; Negative TTL
+
+@        IN NS  srv.clinicanova.local.
+fw       IN A   192.168.56.254
+srv      IN A   192.168.56.10
+mon      IN A   192.168.56.20
+web      IN A   192.168.57.10
+www      IN CNAME web

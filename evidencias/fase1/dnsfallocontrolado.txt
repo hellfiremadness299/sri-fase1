@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> noexiste.clinicanova.local @192.168.56.10
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28333
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 11b838cdade270af0100000069b33a13118fb556500d156c (good)
+;; QUESTION SECTION:
+;noexiste.clinicanova.local.	IN	A
+
+;; AUTHORITY SECTION:
+clinicanova.local.	300	IN	SOA	srv.clinicanova.local. admin.clinicanova.local. 2024031201 3600 1800 604800 300
+
+;; Query time: 0 msec
+;; SERVER: 192.168.56.10#53(192.168.56.10) (UDP)
+;; WHEN: Thu Mar 12 22:11:31 UTC 2026
+;; MSG SIZE  rcvd: 129
+

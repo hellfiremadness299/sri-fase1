@@ -1,0 +1,30 @@
+mar 12 21:44:20 cn-srv-lab named[661]: listening on IPv4 interface enp0s3, 192.168.56.10#53
+mar 12 21:44:20 cn-srv-lab named[661]: listening on IPv4 interface enp0s8, 192.168.57.10#53
+mar 12 21:44:20 cn-srv-lab named[661]: IPv6 socket API is incomplete; explicitly binding to each IPv6 address separately
+mar 12 21:44:20 cn-srv-lab named[661]: listening on IPv6 interface lo, ::1#53
+mar 12 21:44:20 cn-srv-lab named[661]: listening on IPv6 interface enp0s3, fe80::a00:27ff:fee4:27f1%2#53
+mar 12 21:44:20 cn-srv-lab named[661]: listening on IPv6 interface enp0s8, fe80::a00:27ff:fe8e:3e9d%3#53
+mar 12 21:44:20 cn-srv-lab named[661]: generating session key for dynamic DNS
+mar 12 21:44:20 cn-srv-lab named[661]: sizing zone task pool based on 6 zones
+mar 12 21:44:20 cn-srv-lab named[661]: none:99: 'max-cache-size 90%' - setting to 1771MB (out of 1968MB)
+mar 12 21:44:20 cn-srv-lab named[661]: obtaining root key for view _default from '/etc/bind/bind.keys'
+mar 12 21:44:20 cn-srv-lab named[661]: set up managed keys zone for view _default, file 'managed-keys.bind'
+mar 12 21:44:20 cn-srv-lab named[661]: configuring command channel from '/etc/bind/rndc.key'
+mar 12 21:44:20 cn-srv-lab named[661]: command channel listening on 127.0.0.1#953
+mar 12 21:44:20 cn-srv-lab named[661]: configuring command channel from '/etc/bind/rndc.key'
+mar 12 21:44:20 cn-srv-lab named[661]: command channel listening on ::1#953
+mar 12 21:44:20 cn-srv-lab named[661]: managed-keys-zone: loaded serial 5
+mar 12 21:44:20 cn-srv-lab named[661]: zone 0.in-addr.arpa/IN: loaded serial 1
+mar 12 21:44:20 cn-srv-lab named[661]: zone 127.in-addr.arpa/IN: loaded serial 1
+mar 12 21:44:20 cn-srv-lab named[661]: zone 255.in-addr.arpa/IN: loaded serial 1
+mar 12 21:44:20 cn-srv-lab named[661]: zone clinicanova.local/IN: loaded serial 2024031201
+mar 12 21:44:20 cn-srv-lab named[661]: zone localhost/IN: loaded serial 2
+mar 12 21:44:20 cn-srv-lab named[661]: all zones loaded
+mar 12 21:44:20 cn-srv-lab named[661]: running
+mar 12 21:44:20 cn-srv-lab systemd[1]: Started named.service - BIND Domain Name Server.
+mar 12 21:44:20 cn-srv-lab named[661]: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+mar 12 21:44:20 cn-srv-lab named[661]: managed-keys-zone: Key 38696 for zone . is now trusted (acceptance timer complete)
+mar 12 21:46:50 cn-srv-lab named[661]: listening on IPv6 interface enp0s9, fe80::a00:27ff:fee0:5d5c%4#53
+mar 12 21:47:11 cn-srv-lab named[661]: no longer listening on fe80::a00:27ff:fee0:5d5c%4#53
+mar 12 21:49:20 cn-srv-lab named[661]: listening on IPv4 interface enp0s9, 192.168.1.20#53
+mar 12 21:49:20 cn-srv-lab named[661]: listening on IPv6 interface enp0s9, fe80::a00:27ff:fee0:5d5c%4#53

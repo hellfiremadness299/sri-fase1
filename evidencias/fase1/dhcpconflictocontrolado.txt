@@ -1,0 +1,1 @@
+Conflicto: IP 192.168.56.150 dentro del rango DHCP asignada manualmente. Solucion: no usar IPs fijas dentro del rango 100-200
